@@ -55,7 +55,7 @@ func main() {
 			} else if decade < 1 {
 				fmt.Println(dict_units[unit])
 			} else {
-				fmt.Println(dict_decades[decade], dict_units[unit])
+				fmt.Print(dict_decades[decade], dict_units[unit])
 			}
 
 		}
